@@ -1,0 +1,130 @@
+body {
+    background-image: url('https://external-preview.redd.it/kKoeDL66RfmaAKRm5u_RpXlexpJefvYSQMh1Ie6DlTQ.jpg?auto=webp&s=bfca145b4a9956d7f369032b5571d3bed3f3aa03');
+    background-size:cover;
+    font-family: 'PT Serif', serif;
+}
+
+.card{
+    background-color: rgba(144, 139, 216, 0.3);
+    border-radius: 0px;
+    box-shadow: 10px 10px 20px 0px black;
+}
+
+.navigation{
+    background-color: rgba(144, 139, 216, 0.3);
+    color: #1b0000;
+    padding: 10px;
+    box-shadow: 10px 10px 41px 0px black;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.upper-info{
+    border-bottom: 1px solid white;
+
+}
+
+.weather-form{
+    margin: 40px 0px;
+}
+
+
+.feels-like{
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+.form-control{
+    background-color: rgba(243, 243, 243, 0.5);
+}
+
+.btn-warning.submit{
+    background-color:#6a8d01;
+    border-color:#8bba00;
+}
+
+.btn:hover{
+    color: white;
+    border:  #6a8d01 solid 1px;
+    background: #b8d859;
+}
+
+.no-content{
+    align-self: center;
+}
+
+.bottom-info{
+    margin-bottom: 115px;
+    color: #1b0000;
+}
+
+@media(min-width:320px){
+    h1{
+        font-size:40px;
+    }
+    .temperature-info{
+        margin: 30px 30px 20px 30px;
+        background-color: rgba(144, 139, 216, 0.3);
+        color:white;
+        border-radius: 4px;
+    }
+    .temperature{
+        font-size: 60px;
+    }
+    .form-control{
+        font-size: 16px;
+    }
+  
+    .credits{
+        color: #1b0000;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 13px;
+        padding: 10px 40px 10px 0px;
+    }
+    .p-footer{
+        margin-bottom: 10px;
+    }
+    a{
+        color: #1b0000;
+        text-decoration: underline;
+        
+    }
+
+    footer{
+        background-color: rgba(144, 139, 216, 0.3);
+        border-top: 1px solid white
+    }
+}
+
+@media(min-width:768px){
+    .temperature{
+        font-size: 60px;
+    }
+    .temperature-info{
+        margin: 30px 30px 20px 30px;
+        background-color: transparent;
+    }
+}
+
+@media(min-width:1024px){
+
+    .form-control{
+        font-size: 18px; 
+    }
+    .card.card-body.upper{
+        margin-top:44px;
+    }
+    .temperature-info{
+        margin: 50px;   
+    }
+    .temperature{
+        font-size: 80px;
+    }
+    .bottom-info{
+        margin-bottom: 155px;
+    }
+
+}
+
+
+
